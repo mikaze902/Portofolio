@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+}
+
+.navbar-ul {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-li {
+    font-size: 30px;
+    list-style-type: none;
+    padding: 25px;
+    color: white;
+    margin: 5px;
+}
+
+.navbar-li:hover {
+    background-color: red;
+    transition: 1s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 15px;
+}
+
+.navbar-a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-container {   
+   height: 80vh;
+   background-color: #222;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image-a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-font {
+    font-size: 100px;
+    color: white;
+}
+
+.image-container {
+    width: 50%;
+    height: 50%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header1 {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* about.html CSS */
+.container {
+    background-color: #222;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-font {
+    color: #fff;
+    font-size: 75px;
+}
+
+.auto-type {
+    color: red;
+    font-size: 75px;
+}
+
+.navbar-list {
+    height: 10vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-b {
+    color: white;
+    font-size: 45px;
+}
+
+.navbar-b:hover {
+    background-color: red;
+    transition: 1s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 15px;
+}
